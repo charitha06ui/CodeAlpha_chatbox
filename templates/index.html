@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>CodeAlpha Chatbot</title>
+        <p>Ask me about our services, contact details, or company information.</p>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>CodeAlpha Chatbot</h1>
+
+        <form method="POST">
+          <input type="text" name="message" placeholder ="Type your message">
+          <button type="submit">Send</button>
+        </form>
+
+        <p><b>You:</b> {{ user_message }}</p>
+        <p><b>Bot:</b> {{ reply }}</p>
+    </body>
+</html>

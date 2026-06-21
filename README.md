@@ -1,29 +1,19 @@
-# CodeAlpha Chatbot
+Project Name: CodeAlpha Chatbot
 
-## Description
-A simple chatbot developed as part of the CodeAlpha Cloud Computing Internship. The chatbot is built using Flask, HTML, and CSS and provides automated responses to user queries.
+Description:
+A simple chatbot developed using Flask, HTML and CSS.
 
-## Features
-- Interactive chatbot interface
-- User message input
+Features:
+- User input
 - Automated responses
-- Flask backend integration
-- Responsive web design
+- Web interface
+- Flask backend
 
-## Technologies Used
+Technologies:
 - Python
 - Flask
 - HTML
 - CSS
 
-## Project Structure
-CodeAlpha_Chatbot/
-├── app.py
-├── README.md
-├── templates/
-│   └── index.html
-└── static/
-    └── style.css
-
-## Author
+Author:
 Balasubramanyam Charitha
